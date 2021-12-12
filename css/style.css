@@ -3,7 +3,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-display: fallback !important;
     font-size: 16px;
-    background: rgb(18, 2, 49);
+    background: #061f4a;
     color: white;
 }
 h1,
@@ -439,6 +439,11 @@ div#swal2-content ol li {
         margin-top: 20rem;
     }
 }
+#g1 svg {
+    margin-left: 6%;
+    background: rgba(227, 0, 171, 0.7);
+    filter: blur(200px);
+}
 .gradient svg {
     margin-left: 65%;
     background: rgba(227, 0, 171, 0.7);
@@ -834,17 +839,15 @@ div.home-content {
 .tracks p {
     margin-top: 20px;
 }
-.testimonials .container
-{
+.testimonials .container {
     width: 80%;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
 }
-.testimonials .row
-{
+.testimonials .row {
     justify-content: space-between;
 }
-.col{
+.col {
     border: 1px solid purple;
     padding: 5%;
     line-height: 3rem;
