@@ -440,7 +440,7 @@ div#swal2-content ol li {
     }
 }
 #g1 svg {
-    margin-left: 6%;
+    margin-left: -20rem;
     background: rgba(227, 0, 171, 0.7);
     filter: blur(200px);
 }
@@ -453,16 +453,21 @@ div#swal2-content ol li {
     #faq {
         margin-top: -44rem;
     }
+    #faq {
+        margin-left: 80px;
+        width: 1028px;
+        min-height: 608px;
+    }
 }
 @media (max-width: 800px) {
     #faq {
-        margin-top: 240rem;
+        margin-top: 340rem;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     #faq {
-        margin-top: 350rem;
+        margin-top: 500rem;
     }
 }
 #faq {
