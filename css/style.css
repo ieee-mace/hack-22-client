@@ -880,7 +880,25 @@ div.home-content {
 .tracks p {
     margin-top: 20px;
 }
-
+.testimonials .container
+{
+    width: 80%;
+    display: flex;
+    justify-content:center ;
+}
+.testimonials .row
+{
+    justify-content: space-between;
+}
+.col{
+    border: 1px solid purple;
+    padding: 5%;
+    line-height: 3rem;
+}
+/* #test
+{
+    margin: 1rem;
+} */
 #become-sponsor .dotted-line {
     position: absolute;
     top: 50%;
