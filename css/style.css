@@ -1250,7 +1250,7 @@ div.home-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     /* background-color: rgb(51, 51, 51); */
     background: transparent;
     overflow: hidden;
@@ -1329,20 +1329,22 @@ div.home-content {
     background-color: #fff;
     cursor: pointer;
   }
-  
-  @media (max-width:578px)
+
+  @media screen and (max-width:578px)
   {
       .vid
       {
           width: 90%;
-          display: flex;
-          justify-content: center;
           margin: 0 auto;
-          padding: 0;
+          padding: 5%;
       }
-      .play-perspective
-      {
-          width: 100%;
-          padding: 0;
-      }
+  }
+
+
+  .hackathon__details
+  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
