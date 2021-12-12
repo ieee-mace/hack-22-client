@@ -3,7 +3,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-display: fallback !important;
     font-size: 16px;
-    background: radial-gradient(ellipse at bottom, #030119 0%, #00172c 100%);
+    background: rgb(18, 2, 49);
     color: white;
 }
 h1,
@@ -426,6 +426,18 @@ div#swal2-content ol li {
     position: relative;
     cursor: pointer;
     margin-bottom: 30px;
+}
+@media (min-width: 600px) {
+    #abtrow {
+        display: flex;
+        flex-direction: row;
+    }
+    #abtrow div {
+        margin: 2rem;
+    }
+    #abtrow img {
+        margin-top: 20rem;
+    }
 }
 .speaker:after {
     content: '';
