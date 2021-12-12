@@ -48,7 +48,7 @@
     top: -30px;
     left: 50%;
     margin-left: -2px;
-    border-right: 2px dashed #3f1f8a;
+    border-right: 2px dashed white;
     height: 50px;
     display: block;
 }
@@ -59,7 +59,7 @@
     top: 20px;
     left: 50%;
     margin-left: -2px;
-    border-right: 2px dashed #3f1f8a;
+    border-right: 2px dashed white;
     height: 100%;
     display: block;
 }
@@ -88,7 +88,14 @@
 .timeline-row .timeline-content {
     position: relative;
     padding: 20px 30px;
-    background: #3f1f8a;
+    background: linear-gradient(
+        152.97deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    backdrop-filter: blur(42px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 15px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 5px;
@@ -104,7 +111,11 @@
     top: 20px;
     height: 16px;
     width: 16px;
-    background: #3f1f8a;
+    background: linear-gradient(
+        152.97deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
 }
 .timeline-row .timeline-content:before {
     content: '';
@@ -117,7 +128,8 @@
     -moz-border-radius: 100px;
     border-radius: 100px;
     z-index: 10;
-    background: #3f1f8a;
+    background: white;
+
     /* border: 2px dashed #4b546f; */
 }
 .timeline-row .timeline-content h4 {
@@ -138,7 +150,7 @@
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
-    background: #3f1f8a;
+    background: white;
     margin-bottom: 10px;
     display: inline-block;
 }
