@@ -2,7 +2,7 @@
     position: relative;
     background: url("../images/bg/cta-bg.jpg") no-repeat fixed 50% 50%;
     background-size: cover;
-    margin-top: 3%;
+    margin-top: 5%;
   }
   
   .sponsors:before {
@@ -12,28 +12,27 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.97);
+    /*background: rgba(0, 0, 0, 0.97);*/
   }
   
   .client-item {
     float: left;
-    width: 15%;
+    width: 20%;
     height: 115px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    /*border: 1px solid rgba(255, 255, 255, 0.05);*/
     padding: 20px;
     text-align: center;
-    justify-content: center;
     opacity: .7;
     transition: all .45s ease-in-out;
   }
   
   .client-item a {
     display: block;
-  }
+}
   
   .client-item:hover {
     opacity: 1;
-    background: #111111;
+    background: #242224; 
   }
   
   @media (max-width: 991px) {
@@ -84,4 +83,9 @@
   #safeonnet{
       width: 7rem;
       height: auto;
+  }
+
+  #rotary{
+    width: 11rem;
+    height: auto;
   }
