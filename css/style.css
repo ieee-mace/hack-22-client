@@ -842,7 +842,7 @@ div#swal2-content ol li {
     color: #4125dd;
 }
 
-.sponsor {
+/* .sponsor {
     display: block;
     margin-bottom: 10px;
     transition: 0.3s all;
@@ -858,7 +858,7 @@ div#swal2-content ol li {
 .sponsor>img {
     width: 35vw;
     height: auto;
-}
+} */
 
 .home-content {
     text-align: center;
@@ -1675,3 +1675,137 @@ select:focus {
 {
     font-size: 34px;
 } */
+
+
+.sponsors {
+    position: relative;
+    background: url("../images/bg/cta-bg.jpg") no-repeat fixed 50% 50%;
+    background-size: cover;
+    margin-top: 5%;
+  }
+  
+  .sponsors:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0, 0, 0, 0.97);*/
+  }
+  
+  .client-item {
+    float: left;
+    width: 20%;
+    height: 115px;
+    /*border: 1px solid rgba(255, 255, 255, 0.05);*/
+    padding: 20px;
+    text-align: center;
+    opacity: .7;
+    transition: all .45s ease-in-out;
+  }
+  
+  .client-item a {
+    display: block;
+}
+  
+  .client-item:hover {
+    opacity: 1;
+    background: #242224; 
+  }
+
+  .client-item-diamond {
+    float: left;
+    width: 20%;
+    height: 145px;
+    /*border: 1px solid rgba(255, 255, 255, 0.05);*/
+    padding: 40px;
+    text-align: center;
+    opacity: .7;
+    transition: all .45s ease-in-out;
+  }
+  
+  .client-item-diamond a {
+    display: block;
+}
+  
+  .client-item-diamond:hover {
+    opacity: 1;
+    background: #242224; 
+  }
+
+  .client-item-partners {
+    float: left;
+    width: 20%;
+    height: 130px;
+    /*border: 1px solid rgba(255, 255, 255, 0.05);*/
+    padding: 30px;
+    text-align: center;
+    opacity: .7;
+    transition: all .45s ease-in-out;
+  }
+  
+  .client-item-partners a {
+    display: block;
+}
+  
+  .client-item-partners:hover {
+    opacity: 1;
+    background: #242224; 
+  }
+  
+  
+  @media (max-width: 991px) {
+    .client-item {
+      width: 20%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .client-item {
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .client-item {
+      width: 40%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .client-item {
+      width: 50%;
+    }
+  }
+  
+  .bg-black {
+    background: #000;
+  }
+  
+  .letter-spacing {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .text-sm {
+    font-size: 14px;
+  }
+  
+  .bg-gray {
+    background: #eee;
+  }
+
+  #Sponsors{
+      justify-content: center;
+  }
+
+  #safeonnet{
+      width: 7rem;
+      height: auto;
+  }
+
+  #rotary{
+    width: 11rem;
+    height: auto;
+  }
