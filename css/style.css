@@ -21,7 +21,7 @@ hr {
     border-width: 20px;
 }
 h1 {
-    font-size: 43px;
+    font-size: 2.5rem;
 }
 h2 {
     font-size: 31px;
@@ -567,7 +567,7 @@ select:focus {
 }
 
 .tab-2 div div {
-    box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.1);
+    border-bottom: 0.3px solid #fff;
 }
 .schedule_sec .time2 {
     color: #8b3af5;
@@ -1455,4 +1455,8 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.schedule_sec .h1
+{
+    font-size: 2.5rem;
 }
