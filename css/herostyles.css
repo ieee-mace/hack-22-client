@@ -440,6 +440,10 @@
     }
 }
 @media (max-width: 600px) {
+    .hackathon__details img {
+        width: 90%;
+        justify-content: center;
+    }
     .hero .hero__content {
         margin: 0;
         padding: 0 10px;
