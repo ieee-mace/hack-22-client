@@ -439,6 +439,12 @@
         display: none;
     }
 }
+@media (min-width: 1008px) {
+    #become-sponsor .dotted-line {
+        margin-left: -200px !important;
+    }
+}
+
 @media (max-width: 600px) {
     .hackathon__details img {
         width: 90%;

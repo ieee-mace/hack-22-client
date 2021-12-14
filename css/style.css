@@ -594,22 +594,29 @@ select:focus {
         margin-top: -50rem;
     }
     #faq {
-        margin-left: 24rem;
+        margin-left: 10%;
         width: 1028px;
         min-height: 608px;
     }
 }
 @media (max-width: 1008px) {
     #faq {
-        width: 94%;
-        margin-top: -60rem;
+        width: 90%;
+        top: 74%;
         margin-left: 7%;
+    }
+}
+@media (max-width: 600px) {
+    #D-Sponsors,
+    #P-Sponsors {
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media (max-width: 400px) {
     #faq {
-        margin-top: -60rem;
+        margin-top: 40%;
     }
 }
 #faq {
@@ -1040,7 +1047,20 @@ div.home-content {
 .mode {
     position: relative !important;
 }
+@media (min-width: 768px) {
+    #contact.section {
+        margin-top: 20rem;
+        margin-bottom: -300px;
+    }
+}
+@media (max-width: 768px) {
+    #contact.section {
+        margin-top: 72rem;
+        margin-bottom: -300px;
+    }
+}
 #contact.section {
+    text-align: center;
     padding-bottom: 0px;
 }
 .contact {
