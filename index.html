@@ -68,9 +68,16 @@
 
     <body>
         <div style="overflow-x: hidden">
+
+
+
+
+
+
+
             <!-- Hero -->
             <div class="hero" id="home">
-                <div class="hero__background">
+                <!-- <div class="hero__background">
                     <div id="stars"></div>
                     <div id="stars2"></div>
                     <div id="stars3"></div>
@@ -89,8 +96,23 @@
                     <div class="meteor-13"></div>
                     <div class="meteor-14"></div>
                     <div class="meteor-15"></div>
-                </div>
+                </div> -->
                 <!-- Header -->
+
+                <div class="hero-one">
+                    <video autoplay muted style="height: 100vh; transform: translateX(-30%);">
+                      <source src="./hackAfterMovie.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="hero-two"></div>
+                  <div style="position: absolute; top:0; left: 0; width: 100%; height: 100vh; z-index: 1; background: #1b0d2c; opacity: 0.7;"></div>
+                  <h1 class="header-title"><span class="header-primary"><img src="https://hack.ieeemace.org/img/2022/2022.png"></img></span><span class="header-sub">29th - 30th Jan 2022</span><div
+                    class="apply-button"
+                    data-hackathon-slug="hack22"
+                    data-button-theme="dark-inverted"
+                    style="height: 44px; width: 312px; display: block; margin: 10px auto;"
+                ></div></h1>
+                
                 <header id="header" class="transparent-navbar">
                     <!-- container -->
                     <div class="container">
@@ -154,7 +176,7 @@
                     <div class="row">
                         <div class="hero__content__details">
                             <div class="hackathon__details">
-                                <img src="img/2022/2022.png" width="500px" />
+                                <!-- <img src="img/2022/2022.png" width="500px" /> -->
                                 <br />
                                 <div class="hackathon__details__discription">
                                     <!-- <div>Registration Starts Soon!</div>-->
@@ -166,26 +188,44 @@
 
                             <div class="hero__content__banner_slogan">
                                 <div>
-                                    <h2>
+                                    <!-- <h2>
                                         <span>29<sup>th</sup> - 30<sup>th</sup></span
                                         >Jan 2022
-                                    </h2>
+                                    </h2> -->
                                 </div>
                             </div>
 
                             <div class="registration__details" style="margin-top: 30px">
-                                <div
-                                    class="apply-button"
-                                    data-hackathon-slug="hack22"
-                                    data-button-theme="dark-inverted"
-                                    style="height: 44px; width: 312px"
-                                ></div>
+
+                                <!-- <div 
+	class="apply-button" 
+	data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+	data-button-theme="light"
+	style="height: 44px; width: 312px"
+></div> -->
+
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- /Hero -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <div id="about" class="container tracks section">
                 <br /><br />
@@ -226,48 +266,9 @@
                 </div>
             </div>
             <div class="vid">
-                <div class="play-backdrop"></div>
-                <div class="play-button">
-                    <svg class="play-circles" viewBox="0 0 152 152">
-                        <circle
-                            class="play-circle-01"
-                            fill="none"
-                            stroke="#fff"
-                            stroke-width="3"
-                            stroke-dasharray="343 343"
-                            cx="76"
-                            cy="76"
-                            r="72.7"
-                        />
-                        <circle
-                            class="play-circle-02"
-                            fill="none"
-                            stroke="#fff"
-                            stroke-width="3"
-                            stroke-dasharray="309 309"
-                            cx="76"
-                            cy="76"
-                            r="65.5"
-                        />
-                    </svg>
-                    <p>WATCH THE VIDEO</p>
-                    <div class="play-perspective">
-                        <button class="play-close"></button>
-                        <div class="play-triangle">
-                            <div class="play-video">
-                                <!-- <iframe width="600" height="400" src="img/hack_video.mp4" frameborder="0"
-                                    allowfullscreen></iframe> -->
-                                <video width="600" height="400" controls>
-                                    <source
-                                        src="img/hack_video.mp4"
-                                        type="video/mp4"
-                                        allowfullscreen
-                                    />
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <video width="800" autoplay muted>
+                    <source src="img/hack_video.mp4" type="video/mp4" allowfullscreen />
+                </video>
             </div>
             <!--<div id="prizes-home" class="section" style="margin-top: 80px; color: #a5b3cf">
                 <div class="section-title">
@@ -551,7 +552,7 @@
                                         <h3 class="h1">Second round evaluation</h3>
                                     </div>
                                 </div>
-                                <br/>
+                                <br />
                                 <div>
                                     <h4 class="time">8.30am</h4>
                                     <div class="content">
@@ -736,7 +737,9 @@
                                 </div>
                             </div>
 
-                            <h4 class="my-4 text-white letter-spacing text-sm">Platform Sponsors</h4>
+                            <h4 class="my-4 text-white letter-spacing text-sm">
+                                Platform Sponsors
+                            </h4>
                             <div class="row">
                                 <div class="col-lg-12" id="Sponsors">
                                     <div class="client-item-partners">
@@ -766,7 +769,7 @@
                                     </div>
                                 </div>
                             </div-->
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <!-- Section END -->
@@ -1053,14 +1056,19 @@
                                             >What is the goal of the hackathon?
                                         </h3>
                                         <p class="collapse box1" id="num1" style="width: 80%">
-                                            Firstly, to provide a worthwhile experience where participants benefit
-                                             to the fullest extent possible. We'll make it memorable for those attending 
-                                             for the first time so they can cherish the experience for a lifetime.
-                                              Participants will be better able to come up with solutions based on a problem statement 
-                                              as a result of this experience. This will also enable the participants to come up with new ideas
-                                              , build prototypes, and launch innovative projects to improve quality of life.
-                                                Additionally, Humanitarian technology training can be offered to the participants. 
-                                                In this way, students will be able to develop projects that are industry-ready.
+                                            Firstly, to provide a worthwhile experience where
+                                            participants benefit to the fullest extent possible.
+                                            We'll make it memorable for those attending for the
+                                            first time so they can cherish the experience for a
+                                            lifetime. Participants will be better able to come up
+                                            with solutions based on a problem statement as a result
+                                            of this experience. This will also enable the
+                                            participants to come up with new ideas , build
+                                            prototypes, and launch innovative projects to improve
+                                            quality of life. Additionally, Humanitarian technology
+                                            training can be offered to the participants. In this
+                                            way, students will be able to develop projects that are
+                                            industry-ready.
                                         </p>
                                         <br />
 
@@ -1084,8 +1092,8 @@
                                             >How much does it cost?
                                         </h3>
                                         <p class="collapse box1" id="num4" style="width: 80%">
-                                            Participation in this huge opportunity does not require a fee, so anyone interested is welcome to join.
-
+                                            Participation in this huge opportunity does not require
+                                            a fee, so anyone interested is welcome to join.
                                         </p>
                                         <br />
 
@@ -1110,10 +1118,12 @@
                                             required skills?
                                         </h3>
                                         <p class="collapse box1" id="num5">
-                                            Students of all levels are welcome to participate. Although coding and hardware knowledge
-                                             would be an asset, the teams would also need people with great ideas and presentation skills. 
-                                             If you're a beginner in all of these, but want to gain some insight into them, then .hack'22 
-                                             is the perfect place for you to kick off with.
+                                            Students of all levels are welcome to participate.
+                                            Although coding and hardware knowledge would be an
+                                            asset, the teams would also need people with great ideas
+                                            and presentation skills. If you're a beginner in all of
+                                            these, but want to gain some insight into them, then
+                                            .hack'22 is the perfect place for you to kick off with.
                                         </p>
                                         <br />
                                     </div>
@@ -1139,7 +1149,8 @@
                                             >Do I need a team to participate?
                                         </h3>
                                         <p class="collapse box1" id="num3" style="width: 80%">
-                                            Not necessarily. You can either participate individually or as a four-person team
+                                            Not necessarily. You can either participate individually
+                                            or as a four-person team
                                         </p>
                                         <br />
                                         <h3
@@ -1186,7 +1197,8 @@
                                             >Are there any prizes?
                                         </h3>
                                         <p class="collapse box1" id="num7" style="width: 80%">
-                                            Yes, definitely! Hack '22 promises amazing prizes and cool swags for you.
+                                            Yes, definitely! Hack '22 promises amazing prizes and
+                                            cool swags for you.
                                         </p>
                                         <br />
 
@@ -1230,29 +1242,83 @@
                         <div class="row">
                             <h3>Contact</h3>
                             <p>
-                                Melvin Thomas - 
-                                <a href="tel:+91 9656177426" rel="noopener noreferrer"
-                                target="_blank" style="margin: 10px;"> <i class="fa fa-phone" style="padding-top: 10px;"></i></a>
-                                <a href="https://in.linkedin.com/in/melvin-thomas-dev" rel="noopener noreferrer"
-                                target="_blank"  style="margin: 10px;"> <i class="fa fa-linkedin" style="padding-top: 10px"></i></a>
-                                <a href="mailto:melvin_thomas@ieee.org" rel="noopener noreferrer"
-                                target="_blank"  style="margin: 10px;"> <i class="fa fa-envelope" style="padding-top: 10px"></i></a>
+                                Melvin Thomas -
+                                <a
+                                    href="tel:+91 9656177426"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-phone" style="padding-top: 10px"></i
+                                ></a>
+                                <a
+                                    href="https://in.linkedin.com/in/melvin-thomas-dev"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-linkedin" style="padding-top: 10px"></i
+                                ></a>
+                                <a
+                                    href="mailto:melvin_thomas@ieee.org"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-envelope" style="padding-top: 10px"></i
+                                ></a>
                                 <br />
                                 Krupa Thomas -
-                                <a href="tel:+91 9400965643" rel="noopener noreferrer"
-                                target="_blank" style="margin: 10px;"> <i class="fa fa-phone" style="padding-top: 10px;"></i></a>
-                                <a href="https://in.linkedin.com/in/krupa-acha-thomas" rel="noopener noreferrer"
-                                target="_blank"  style="margin: 10px;"> <i class="fa fa-linkedin" style="padding-top: 10px"></i></a>
-                                <a href="mailto:krupathomas@ieee.org" rel="noopener noreferrer"
-                                target="_blank"  style="margin: 10px;"> <i class="fa fa-envelope" style="padding-top: 10px"></i></a>
+                                <a
+                                    href="tel:+91 9400965643"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-phone" style="padding-top: 10px"></i
+                                ></a>
+                                <a
+                                    href="https://in.linkedin.com/in/krupa-acha-thomas"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-linkedin" style="padding-top: 10px"></i
+                                ></a>
+                                <a
+                                    href="mailto:krupathomas@ieee.org"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-envelope" style="padding-top: 10px"></i
+                                ></a>
                                 <br />
-                                Aravind Reghunath - 
-                                <a href="tel:+91 7025194787" rel="noopener noreferrer"
-                                target="_blank" style="margin: 10px;"> <i class="fa fa-phone" style="padding-top: 10px;"></i></a>
-                                <a href="https://www.linkedin.com/in/aravind-reghunadh-242507198/" rel="noopener noreferrer"
-                                target="_blank"  style="margin: 10px;"> <i class="fa fa-linkedin" style="padding-top: 10px"></i></a>
-                                <a href="mailto:aravind_reghunadh@ieee.org" rel="noopener noreferrer"
-                                target="_blank"  style="margin: 10px;"> <i class="fa fa-envelope" style="padding-top: 10px"></i></a>
+                                Aravind Reghunath -
+                                <a
+                                    href="tel:+91 7025194787"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-phone" style="padding-top: 10px"></i
+                                ></a>
+                                <a
+                                    href="https://www.linkedin.com/in/aravind-reghunadh-242507198/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-linkedin" style="padding-top: 10px"></i
+                                ></a>
+                                <a
+                                    href="mailto:aravind_reghunadh@ieee.org"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    style="margin: 10px"
+                                >
+                                    <i class="fa fa-envelope" style="padding-top: 10px"></i
+                                ></a>
                             </p>
                         </div>
                         <!-- /row -->
