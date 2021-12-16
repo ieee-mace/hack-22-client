@@ -1577,7 +1577,7 @@ video {
 @media (max-width: 495px) {
     .header-sub {
         font-size: 16px;
-        letter-spacing: 4px;
+        letter-spacing: 7px;
     }
 }
 
