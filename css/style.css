@@ -1573,3 +1573,14 @@ video {
 .schedule_sec .h1 {
     font-size: 2.5rem;
 }
+
+@media (max-width: 495px) {
+    .header-sub {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+}
+
+.header-btn {
+    margin: 30px auto;
+}
