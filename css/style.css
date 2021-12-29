@@ -1584,3 +1584,24 @@ video {
 .header-btn {
     margin: 30px auto;
 }
+
+@media (max-width:991px){
+#mlh-trust-badge
+{
+   left:5%;
+}
+.navbar-brand 
+{
+   margin-left: 21%;
+}
+}
+@media only screen and  (min-width:992px ) and (max-width:1044px){
+    .main-nav li a
+    {
+        padding:30px 5px;
+    }
+    .main-nav
+    {
+        margin-right:7%;
+    }
+}
