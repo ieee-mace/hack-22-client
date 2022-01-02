@@ -262,3 +262,11 @@ close.addEventListener('click', (e) => {
     e.stopPropagation()
     openTL.reverse()
 })
+
+$('.ribbon').on('hover', function() {	
+    var self = $(this),
+        newone = self.clone(true);
+    
+    self.before(newone);
+    $("." + self.attr("class") + ":last").remove();
+  });
