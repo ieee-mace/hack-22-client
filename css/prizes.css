@@ -174,11 +174,11 @@
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-
+/*
 .flip-card-container:hover .flip-card,
 .flip-card-container:focus-within .flip-card {
     transform: rotateY(180deg);
-}
+} */
 .for-all {
     width: 500px;
     height: auto;
@@ -206,7 +206,7 @@
 
 .card-front {
     /* border: 2px solid #bcd0f7; */
-    background: #1f2438;
+    /*background: #1f2438;*/
     transform: rotateY(0deg);
     z-index: 2;
     display: flex;
