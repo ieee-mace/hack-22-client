@@ -592,12 +592,12 @@ select:focus {
 .tabs [class^="tab"] [type="radio"]:focus,
 .tabs [class*=" tab"] [type="radio"]:hover,
 .tabs [class*=" tab"] [type="radio"]:focus {
-    border-bottom: 1px solid #f700ff;
+    border-bottom: 2px solid #f700ff;
 }
 
 .tabs [class^="tab"] [type="radio"]:checked,
 .tabs [class*=" tab"] [type="radio"]:checked {
-    border-bottom: 2px solid #f700ff;
+    border-bottom: 3px solid #f700ff;
 }
 
 .tabs [class^="tab"] [type="radio"]:checked + div,
