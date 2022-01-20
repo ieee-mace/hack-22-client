@@ -1766,4 +1766,14 @@ video {
 
 .contact{
     padding-top: 10%;
+    
+}
+.flip-card-container:hover .flip-card
+{
+    transform: rotateY(180deg);
+}
+.card-back
+{
+    font-size: 1.5rem;
+    justify-content: center;
 }
