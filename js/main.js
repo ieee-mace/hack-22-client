@@ -270,3 +270,5 @@ $('.ribbon').on('hover', function() {
     self.before(newone);
     $("." + self.attr("class") + ":last").remove();
   });
+
+  
