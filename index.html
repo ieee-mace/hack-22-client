@@ -376,7 +376,8 @@
                     </div>
                 </div>
             </div>
-
+            
+            <!--
             <div id="prizes-home" class="section" style="color: #a5b3cf">
                 <div class="section-title">
                     <h3 class="title" style="font-size: 32px;"><span style="color: white">Sponsor prizes</span></h3>
@@ -408,6 +409,136 @@
                     <div class="bottom-prize">Filecoin</div>
                     <div class="offers">
                         <div class="prize-money">INR 20,000 for best use of IPPS and/or Filecoin</div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div id="prizes-home" class="section" style="margin-top: 30px; color: #a5b3cf">
+                <div class="section-title">
+                    <h3 class="title" style="font-size: 32px;"><span style="color: white">Sponsor prizes</span></h3>
+                </div>
+                <div class="overall-prizes show-flexbox" style="margin-top: -35px">
+                    <div class="flip-card-container" style="max-width: 250px;">
+                        <div class="flip-card">
+                            <div class="card-front">
+                                <h2>Best Use of Celo</h2>
+                                <h4>Prize: INR 20,000</h4>
+                                <button class="prz-btn" id="open-modal">Know More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card-container" style="max-width: 250px;">
+                        <div class="flip-card">
+                            <div class="card-front">
+                                <h2>Best Use of Tezos</h2>
+                                <h4>Prize: INR 20,000, Grant opportunities upto $5,000</h4>
+                                <button class="prz-btn" id="open-modal2">Know More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card-container"style="max-width: 250px;">
+                        <div class="flip-card">
+                            <div class="card-front">
+                                <h2>Best Use of Polygon</h2>
+                                <h4>Prizes: INR 15,000, Internships opportunities</h4>
+                                <button class="prz-btn" id="open-modal3">Know More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card-container"style="max-width: 250px;">
+                        <div class="flip-card">
+                            <div class="card-front">
+                                <h2>Best Use of Filecoin</h2>
+                                <h4>Prize: INR 20,000</h4>
+                                <button class="prz-btn" id="open-modal4">Know More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div id="modal-content" class="modal-content animation-1">
+                    <!-- Modal header -->
+                    <header class="modal-header">
+                        <p class="modal-header-title">
+                            Prize Details
+                        </p>
+                        <button id="close" class="modal-header-icon">
+                            X
+                        </button>
+                    </header>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <ul>
+                            <li>INR 20,000 for best Dapp built on Celo</li>
+                            <li>Continuity Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="myModal2" class="modal">
+                <!-- Modal content -->
+                <div id="modal-content" class="modal-content animation-1">
+                    <!-- Modal header -->
+                    <header class="modal-header">
+                        <p class="modal-header-title">
+                            Prize Details
+                        </p>
+                        <button id="close2" class="modal-header-icon">
+                            X
+                        </button>
+                    </header>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <ul>
+                            <li>INR 20,000 for best Dapp built on Tezos</li>
+                            <li>Continuity grant opportunity up to $5,000 for outstanding projects.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="myModal3" class="modal">
+                <!-- Modal content -->
+                <div id="modal-content" class="modal-content animation-1">
+                    <!-- Modal header -->
+                    <header class="modal-header">
+                        <p class="modal-header-title">
+                            Prize Details
+                        </p>
+                        <button id="close3" class="modal-header-icon">
+                            X
+                        </button>
+                    </header>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <ul>
+                            <li>INR 10,000 for best hack built on Ethereum, or</li>
+                            <li>INR 15,000 for best hack built on Ethereum + Polygon</li>
+                            <li>Eligibility to apply for internship/full-time roles and seed
+                                funding of up to 5,000 USD for winners</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="myModal4" class="modal">
+                <!-- Modal content -->
+                <div id="modal-content" class="modal-content animation-1">
+                    <!-- Modal header -->
+                    <header class="modal-header">
+                        <p class="modal-header-title">
+                            Prize Details
+                        </p>
+                        <button id="close4" class="modal-header-icon">
+                            X
+                        </button>
+                    </header>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <ul>
+                            <li>INR 20,000 for best use of IPPS and/or Filecoin</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -1604,6 +1735,64 @@
         <script>
             AOS.init();
         </script>
+
+<script>
+    var modal = document.getElementById("myModal");
+    var modal2 = document.getElementById("myModal2");
+    var modal3 = document.getElementById("myModal3");
+    var modal4 = document.getElementById("myModal4");
+    // Get the button that opens the modal
+    var btn = document.getElementById("open-modal");
+    var btn2= document.getElementById("open-modal2");
+    var btn3= document.getElementById("open-modal3");
+    var btn4= document.getElementById("open-modal4");
+    // Get the <span> element that closes the modal
+    var span = document.getElementById("close");
+    var span2 = document.getElementById("close2");
+    var span3 = document.getElementById("close3");
+    var span4 = document.getElementById("close4");
+    // When the user clicks on the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    btn2.onclick = function () {
+        modal2.style.display = "block";
+    }
+    btn3.onclick = function () {
+        modal3.style.display = "block";
+    }
+    btn4.onclick = function () {
+        modal4.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    span2.onclick = function () {
+        modal2.style.display = "none";
+    }
+    span3.onclick = function () {
+        modal3.style.display = "none";
+    }
+    span4.onclick = function () {
+        modal4.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        if (event.target == modal2) {
+            modal2.style.display = "none";
+        }
+        if (event.target == modal3) {
+            modal3.style.display = "none";
+        }
+        if (event.target == modal4) {
+            modal4.style.display = "none";
+        }
+    }
+</script>
 
         <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
     <!--  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:1.5%;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/2022/events?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg" alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a> -->           
