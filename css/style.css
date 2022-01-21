@@ -1768,7 +1768,11 @@ video {
     padding-top: 10%;
     
 }
-.flip-card-container:hover .flip-card
+/* .flip-card-container:hover .flip-card
+{
+    transform: rotateY(180deg);
+} */
+.flip:hover .flip1
 {
     transform: rotateY(180deg);
 }
