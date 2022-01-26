@@ -236,7 +236,7 @@
 }
 
 .card-back {
-    background: #1f2438;
+    /*background: #1f2438;*/
     transform: rotateY(180deg);
     z-index: 1;
     display: flex;
